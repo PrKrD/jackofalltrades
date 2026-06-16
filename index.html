@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jack of All Trades Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero card">
+      <div>
+        <p class="eyebrow">League of Legends item planner</p>
+        <h1>Jack of All Trades Calculator</h1>
+        <p class="hero-copy">Select items to track unique stat types, see what each item adds, and measure progress toward the Jack of All Trades target.</p>
+        <p class="data-note">Item data is manually generated from <span id="dataPatch" class="mono"></span>.</p>
+      </div>
+      <div class="target-pill card-inner">
+        <span class="target-label">Target unique stats</span>
+        <strong id="targetValue">10</strong>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="left-column">
+        <div class="controls card">
+          <label class="field">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Search by item name, stat label, or source key">
+          </label>
+
+          <label class="field">
+            <span>Sort</span>
+            <select id="sortSelect">
+              <option value="alphabetical">Alphabetical</option>
+              <option value="most-new-stats">Most new stats</option>
+              <option value="lowest-cost">Lowest cost</option>
+              <option value="highest-cost">Highest cost</option>
+            </select>
+          </label>
+        </div>
+
+        <section class="card list-card">
+          <div class="section-header">
+            <h2>Available Items</h2>
+            <span id="itemCount" class="muted"></span>
+          </div>
+          <div id="itemList" class="item-list" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <aside class="right-column">
+        <section class="card progress-card">
+          <div class="section-header">
+            <h2>Progress</h2>
+            <span id="progressText" class="progress-text"></span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progressBar" class="progress-fill"></div>
+          </div>
+          <p id="progressHelp" class="muted"></p>
+        </section>
+
+        <section class="card">
+          <div class="section-header">
+            <h2>Selected Items</h2>
+            <span id="selectedCount" class="muted"></span>
+          </div>
+          <div id="selectedItems" class="selected-list"></div>
+        </section>
+
+        <section class="card summary-card">
+          <div class="section-header">
+            <h2>Total Gold</h2>
+            <strong id="totalGold">0g</strong>
+          </div>
+          <p id="specialCostNote" class="muted"></p>
+        </section>
+
+        <section class="card">
+          <div class="section-header">
+            <h2>Active Unique Stats</h2>
+            <span id="activeCount" class="muted"></span>
+          </div>
+          <div id="activeStats" class="chip-list"></div>
+        </section>
+
+        <button id="clearAll" class="clear-button" type="button">Clear All</button>
+      </aside>
+    </main>
+  </div>
+
+  <script src="items.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
