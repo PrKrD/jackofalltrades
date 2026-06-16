@@ -1622,21 +1622,6 @@ const ITEMS = [
     ]
   },
   {
-    "id": "223005",
-    "slug": "ghostcrawlers",
-    "name": "Ghostcrawlers",
-    "cost": 500,
-    "buyDisplay": "500g",
-    "stats": [
-      {
-        "type": "flatMovementSpeed",
-        "label": "Flat movement speed",
-        "value": 70,
-        "sourceKey": "msflat"
-      }
-    ]
-  },
-  {
     "id": "1011",
     "slug": "giants-belt",
     "name": "Giant's Belt",
@@ -1732,183 +1717,6 @@ const ITEMS = [
         "label": "Armor",
         "value": 45,
         "sourceKey": "armor"
-      }
-    ]
-  },
-  {
-    "id": "2049",
-    "slug": "guardians-amulet",
-    "name": "Guardian's Amulet",
-    "cost": 500,
-    "buyDisplay": "500g",
-    "stats": [
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 20,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 20,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "healAndShieldPower",
-        "label": "Heal and shield power",
-        "value": 15,
-        "sourceKey": "hsp"
-      }
-    ]
-  },
-  {
-    "id": "3177",
-    "slug": "guardians-blade",
-    "name": "Guardian's Blade",
-    "cost": 950,
-    "buyDisplay": "950g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 30,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 15,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 150,
-        "sourceKey": "hp"
-      }
-    ]
-  },
-  {
-    "id": "223185",
-    "slug": "guardians-dirk",
-    "name": "Guardian's Dirk",
-    "cost": 500,
-    "buyDisplay": "500g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 25,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 10,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "lethality",
-        "label": "Lethality",
-        "value": 11,
-        "sourceKey": "lethality"
-      }
-    ]
-  },
-  {
-    "id": "3184",
-    "slug": "guardians-hammer",
-    "name": "Guardian's Hammer",
-    "cost": 950,
-    "buyDisplay": "950g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 25,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 150,
-        "sourceKey": "hp"
-      },
-      {
-        "type": "lifeSteal",
-        "label": "Life steal",
-        "value": 5,
-        "sourceKey": "lifesteal"
-      }
-    ]
-  },
-  {
-    "id": "2051",
-    "slug": "guardians-horn",
-    "name": "Guardian's Horn",
-    "cost": 950,
-    "buyDisplay": "950g",
-    "stats": [
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 150,
-        "sourceKey": "hp"
-      },
-      {
-        "type": "baseHealthRegeneration",
-        "label": "Base health regeneration",
-        "value": 20,
-        "sourceKey": "hp5flat"
-      }
-    ]
-  },
-  {
-    "id": "3112",
-    "slug": "guardians-orb",
-    "name": "Guardian's Orb",
-    "cost": 950,
-    "buyDisplay": "950g",
-    "stats": [
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 50,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 150,
-        "sourceKey": "hp"
-      }
-    ]
-  },
-  {
-    "id": "2050",
-    "slug": "guardians-shroud",
-    "name": "Guardian's Shroud",
-    "cost": 500,
-    "buyDisplay": "500g",
-    "stats": [
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 35,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 15,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 300,
-        "sourceKey": "hp"
       }
     ]
   },
@@ -2026,27 +1834,6 @@ const ITEMS = [
         "label": "Base health regeneration",
         "value": 100,
         "sourceKey": "hp5"
-      }
-    ]
-  },
-  {
-    "id": "4017",
-    "slug": "hellfire-hatchet",
-    "name": "Hellfire Hatchet",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 35,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "lethality",
-        "label": "Lethality",
-        "value": 12,
-        "sourceKey": "lethality"
       }
     ]
   },
@@ -2618,33 +2405,6 @@ const ITEMS = [
     ]
   },
   {
-    "id": "4003",
-    "slug": "lifeline",
-    "name": "Lifeline",
-    "cost": 1600,
-    "buyDisplay": "1600g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 25,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "lethality",
-        "label": "Lethality",
-        "value": 5,
-        "sourceKey": "lethality"
-      },
-      {
-        "type": "percentageMovementSpeed",
-        "label": "Percentage movement speed",
-        "value": 4,
-        "sourceKey": "ms"
-      }
-    ]
-  },
-  {
     "id": "3190",
     "slug": "locket-of-the-iron-solari",
     "name": "Locket of the Iron Solari",
@@ -3206,39 +2966,6 @@ const ITEMS = [
     ]
   },
   {
-    "id": "4015",
-    "slug": "perplexity",
-    "name": "Perplexity",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 60,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "percentageArmorPenetration",
-        "label": "Percentage armor penetration",
-        "value": 22,
-        "sourceKey": "armpen"
-      },
-      {
-        "type": "percentageMagicPenetration",
-        "label": "Percentage magic penetration",
-        "value": 30,
-        "sourceKey": "mpen"
-      },
-      {
-        "type": "percentageMovementSpeed",
-        "label": "Percentage movement speed",
-        "value": 5,
-        "sourceKey": "ms"
-      }
-    ]
-  },
-  {
     "id": "3044",
     "slug": "phage",
     "name": "Phage",
@@ -3583,33 +3310,6 @@ const ITEMS = [
         "label": "Health",
         "value": 350,
         "sourceKey": "hp"
-      }
-    ]
-  },
-  {
-    "id": "3430",
-    "slug": "rite-of-ruin",
-    "name": "Rite of Ruin",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 50,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 15,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "criticalStrikeChance",
-        "label": "Critical strike chance",
-        "value": 25,
-        "sourceKey": "crit"
       }
     ]
   },
@@ -4016,33 +3716,6 @@ const ITEMS = [
     ]
   },
   {
-    "id": "224004",
-    "slug": "spectral-cutlass",
-    "name": "Spectral Cutlass",
-    "cost": 2800,
-    "buyDisplay": "2800g",
-    "stats": [
-      {
-        "type": "attackDamage",
-        "label": "Attack damage",
-        "value": 50,
-        "sourceKey": "ad"
-      },
-      {
-        "type": "lethality",
-        "label": "Lethality",
-        "value": 15,
-        "sourceKey": "lethality"
-      },
-      {
-        "type": "percentageMovementSpeed",
-        "label": "Percentage movement speed",
-        "value": 4,
-        "sourceKey": "ms"
-      }
-    ]
-  },
-  {
     "id": "3211",
     "slug": "spectres-cowl",
     "name": "Spectre's Cowl",
@@ -4390,39 +4063,6 @@ const ITEMS = [
         "label": "Flat movement speed",
         "value": 65,
         "sourceKey": "msflat"
-      }
-    ]
-  },
-  {
-    "id": "4011",
-    "slug": "sword-of-blossoming-dawn",
-    "name": "Sword of Blossoming Dawn",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 15,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 45,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "health",
-        "label": "Health",
-        "value": 200,
-        "sourceKey": "hp"
-      },
-      {
-        "type": "healAndShieldPower",
-        "label": "Heal and shield power",
-        "value": 12,
-        "sourceKey": "hsp"
       }
     ]
   },
@@ -4916,33 +4556,6 @@ const ITEMS = [
     ]
   },
   {
-    "id": "4016",
-    "slug": "wordless-promise",
-    "name": "Wordless Promise",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 25,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "abilityPower",
-        "label": "Ability power",
-        "value": 50,
-        "sourceKey": "ap"
-      },
-      {
-        "type": "healAndShieldPower",
-        "label": "Heal and shield power",
-        "value": 25,
-        "sourceKey": "hsp"
-      }
-    ]
-  },
-  {
     "id": "3865",
     "slug": "world-atlas",
     "name": "World Atlas",
@@ -5119,39 +4732,6 @@ const ITEMS = [
         "label": "Health",
         "value": 300,
         "sourceKey": "hp"
-      }
-    ]
-  },
-  {
-    "id": "3172",
-    "slug": "zephyr",
-    "name": "Zephyr",
-    "cost": 2500,
-    "buyDisplay": "2500g",
-    "stats": [
-      {
-        "type": "abilityHaste",
-        "label": "Ability haste",
-        "value": 30,
-        "sourceKey": "ah"
-      },
-      {
-        "type": "attackSpeed",
-        "label": "Attack speed",
-        "value": 50,
-        "sourceKey": "as"
-      },
-      {
-        "type": "percentageMovementSpeed",
-        "label": "Percentage movement speed",
-        "value": 10,
-        "sourceKey": "ms"
-      },
-      {
-        "type": "tenacity",
-        "label": "Tenacity",
-        "value": 20,
-        "sourceKey": "tenacity"
       }
     ]
   },
